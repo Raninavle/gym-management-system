@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        p
+         {color: brown;    
+        font-family: Verdana;
+        font-size: medium;   
+        margin-left: 40px;
+        margin-right: 40px;
+
+         }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Feature</h1>
+    <p><b>
+        super user should be able to perform ( create, read, update, delete) operation for member and workout regimen.
+    </b></p>
+    <h4>
+        workout regimen:</h4><p>workout regimen can only be created based on BMI range.
+            BMI stands for body mass index.Body Mass Index (BMI) is a person's weight in kilograms (or pounds) divided by 
+            the square of height in meters (or feet)
+            </p>
+    <ul type="disc"><b>BMI<= 18.5 set following as a default workout regimen:</b>
+        <li>Monday    :  chest</li>
+        <li>Tuesday   :  biceps</li>
+        <li>Wednesday :  rest</li>
+        <li>Thursday  :  back </li>
+        <li>Friday    :  triceps</li>
+        <li>Saturday  :  rest </li>
+        <li>Sunday    :   rest</li>
+    </ul>
+    <ul type="dics"><b> 18.5  < BMI < = 25 set following as a default workout regimen:</b>
+        <li>Monday    :  chest</li>
+        <li>Tuesday   :  biceps</li>
+        <li>Wednesday :  rest</li>
+        <li>Thursday  :  back </li>
+        <li>Friday    :  triceps</li>
+        <li>Saturday  :  rest </li>
+        <li>Sunday    :   leg</li>
+
+    </ul>
+    <ul><b> 25  < BMI < = 30 set following as a default workout regimen:</b>
+        <li>Monday    :  chest</li>
+        <li>Tuesday   :  biceps</li>
+        <li>Wednesday :  rest</li>
+        <li>Thursday  :  back </li>
+        <li>Friday    :  triceps</li>
+        <li>Saturday  :  leg </li>
+        <li>Sunday    :   rest</li>
+    </ul>
+    <ul><b> 30  < BMI < = 35 set following as a default workout regimen:</b>
+        <li>Monday    :  chest</li>
+        <li>Tuesday   :  biceps</li>
+        <li>Wednesday :  cardio</li>
+        <li>Thursday  :  back </li>
+        <li>Friday    :  triceps</li>
+        <li>Saturday  :  cardio </li>
+        <li>Sunday    :   cardio</li>
+    </ul>
+    <h4><b>member creation:</b></h4>
+    <p>following details should be required to create a member full name ,age, gender ,mobile number, email ,BMI ,membership duration in month (1,3,6,12 ).</p>
+    <ul>
+         <li>based on BMI a predefined workout regimen should be a assigned.</li>
+         <li>workout regimen should be updated automatically if the BMI value changes for the member.</li>
+         <li>using the mobile number a member should be able to login to the application.</li>
+        </ul>
+    </p>
+    <p>profile can be viewed by super user by entering the contact number of member:</p>
+     <ul>   
+        <li>create member</li>
+        <li>view member</li>
+        <li>delete member
+        <li>update member - it should have also have extend to membership duration.</li>
+        <li>create regimen</li>
+        <li>view regimen</li>
+        <li>logout</li>
+    </ul>
+    <h4><b>user creation:</b></h4>
+    <p>member should see following option:</b>
+    <ul>
+        <li>view user Profile  </li>        
+        <li>Show All Packages   </li>   
+        <li>view user regimen </li>
+        <li>update membership</li>
+        <li>Logout</li>
+
+    </ul>
+
+</body>
+</html>
